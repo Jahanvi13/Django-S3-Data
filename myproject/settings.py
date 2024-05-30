@@ -121,15 +121,9 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 
-AWS_ACCESS_KEY_ID = 'AKIAXYKJQXPTEYHZLK7W'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'jagar'
-AWS_S3_REGION_NAME = 'us-west-2' 
-AWS_S3_CUSTOM_DOMAIN = f'jagar.s3.amazonaws.com'
+#Use your own AWS Credentials over here to store data for S3
 
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-STATIC_URL = f'https://jagar.s3.amazonaws.com/'
+
 
 AUTH_USER_MODEL = 'myapp.User'
 
