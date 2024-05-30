@@ -1,6 +1,6 @@
 # Django S3 Authentication
 
-This is a Django project that demonstrates user authentication using AWS S3 for storing user data.
+This is a Django project that demonstrates user authentication using AWS S3 for storing user data and for uploading the files.
 
 # Features
 
